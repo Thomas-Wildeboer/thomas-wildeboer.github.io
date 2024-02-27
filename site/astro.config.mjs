@@ -6,5 +6,6 @@ import robotsTxt from "astro-robots-txt";
 
 // https://astro.build/config
 export default defineConfig({
-  integrations: [tailwind(), compress(), robotsTxt()]
+  integrations: [tailwind(), compress(), robotsTxt()],
+  site: 'https://thomas-wildeboer.github.io/'
 });
