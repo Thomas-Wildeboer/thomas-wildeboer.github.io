@@ -40,5 +40,13 @@ const fullName = persona.firstName + " " + persona.secondName;
         ))
       }
     </List>
+    <SectionTitle title="personal links" />
+    <List>
+      {
+        persona.sections.links.map((e) => (
+          <ListItem title={e.title} desc={e.desc} url={e.url} />
+        ))
+      }
+    </List>
   </Section>
 </Layout>
