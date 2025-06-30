@@ -15,6 +15,14 @@ const fullName = persona.firstName + " " + persona.secondName;
   <Story story={persona.story} />
   <Section>
     <!-- 
+    <SectionTitle title="publications/pre-prints" />
+    <List>
+      {
+        persona.sections.publications.map((e) => (
+          <ListItem title={e.title} desc={e.desc} url={e.url} />
+        ))
+      }
+    </List>
     <SectionTitle title="projects" />
     <List>
       {
@@ -36,7 +44,7 @@ const fullName = persona.firstName + " " + persona.secondName;
     <List>
       {
         persona.sections.links.map((e) => (
-          <ListItem title={e.title} url={e.url} desc="" />
+          <ListItem title={e.title} desc={e.desc} url={e.url} />
         ))
       }
     </List>

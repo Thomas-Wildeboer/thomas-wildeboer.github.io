@@ -9,13 +9,16 @@ export const persona = {
         {
           title: 'github',
           url: 'https://github.com/thomas-wildeboer'
-        },
-        /*{
-          title: "google scholar",
-          url: ''
-        }*/
+        }
       ],
-      /*projects: [
+      /*publications: [
+          {
+              title: "google scholar",
+              desc: "see my research",
+              url: 'https://www.linkedin.com/in/thomas-wildeboer'
+          }
+      ],
+      projects: [
         {
             title: "genovolve",
             desc: "evolutionary quantitative genetic simulator",
@@ -32,12 +35,8 @@ export const persona = {
             url: 'https://sztepanacz.eeb.utoronto.ca/'
         },
         {
-            title: "ecology and evolutionary biology @ utoronto",
+            title: "eeb @ utoronto",
             url: 'https://eeb.utoronto.ca/'
-        },
-        {
-            title: "data sciences institute @ utoronto",
-            url: 'https://datasciences.utoronto.ca/'
         }
       ]
     },
